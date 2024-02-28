@@ -1,15 +1,15 @@
 # grep
 Python Reconstruction of grep (a popular unix command line utility)
 
-#Features:
-##Search Functionality:
+# Features:
+## Search Functionality:
 Search Keyword: Allows users to search for a specified keyword within a file. The keyword is provided as a command-line argument.
 
-##Additional Options:
+## Additional Options:
 Line Count: Includes an option to display the line count of matches. Users can add -l in the command line to activate this feature.
 Case Insensitivity: Supports case-insensitive searching. Users can specify -i in the command line to perform case-insensitive searches.
 
-##Robustness:
+## Robustness:
 Exception Handling: Handles file non-existence gracefully. If the specified file does not exist, the program will raise an exception and stop execution.
 
 
